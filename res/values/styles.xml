@@ -1,0 +1,245 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ActionBarTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+         <item name="android:actionBarStyle">@style/ActionBar</item>
+          <item name="android:actionOverflowButtonStyle">@style/OverFlow</item> 
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+          <item name="android:actionOverflowButtonStyle">@style/OverFlow</item> 
+    </style>
+  <style name="ArticleAppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+          <item name="android:actionOverflowButtonStyle">@style/OverFlow1</item> 
+    </style>
+     <style name="FBAppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+          <item name="android:actionOverflowButtonStyle">@style/OverFlow2</item> 
+    </style>
+     <style name="TimeAppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+          <item name="android:actionOverflowButtonStyle">@style/OverFlow3</item> 
+    </style>
+    <style name="ActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/actionbar_color</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleText</item> 
+    </style>
+   
+    <!-- android:TextAppearance.Holo.Widget.ActionBar.Title -->
+
+    <style name="ActionBar.TitleText" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">18sp</item>
+    </style>
+        <style name="ProgressBarHorizontal_color" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/loading_progress_bar</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:maxHeight">2dip</item>
+    </style>
+    <style name="Theme.Present" parent="android:Theme.Holo.Light.DarkActionBar">
+         <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:windowAnimationStyle">@style/PresentAnimation</item>
+    </style>
+    <style name="PresentAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+    <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_new_light</item>
+    </style>
+     <style name="OverFlow1" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/icon_dark_share</item>
+    </style>
+     <style name="OverFlow2" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_send_light</item>
+    </style>
+    <!-- 日历 -->
+        <style name="OverFlow3" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/icon_calendar</item>
+    </style>
+    <!-- 列表用户头像的样式 -->
+    <style name="UserFaceImageStyle">
+        <item name="android:layout_width">120.0dip</item>
+        <item name="android:layout_height">120.0dip</item>
+        <item name="android:padding">1.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:contentDescription">face</item>
+    </style>
+        <style name="alert_dialog" parent="@android:Theme.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="dialog_blue_button" parent="@android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+    
+    <style name="CSDNTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+        <!-- Day主题 -->
+    <style name="Theme.Day" parent="CSDNTheme">
+        <item name="vpiTabPageIndicatorStyle">@style/MyWidget.TabPageIndicator.Day</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="mode">@style/Theme.Day.ModeTextAppearance</item>
+        <item name="actionBarTitle">@style/Theme.Day.ActionBarTitleTextAppearance</item>
+        <item name="actionBarRoot">@style/Theme.Day.actionBarRoot</item>
+        <item name="infoItemCell">@style/Theme.Day.infoItemCell</item>
+        <item name="infoItemCellTitle">@style/Theme.Day.infoItemCellTitle</item>
+        <item name="infoContentActivityRootbackground">@style/Theme.Day.infoContentActivityRootbackground</item>
+        <item name="infoContentTitleItem">@style/Theme.Day.infoContentTitleItem</item>
+        <item name="infoContentSummaryItem">@style/Theme.Day.infoContentSummaryItem</item>
+        <item name="infoContentItem">@style/Theme.Day.infoContentItem</item>
+        <item name="infoContentBoldTitleItem">@style/Theme.Day.infoContentBoldTitleItem</item>
+    </style>
+
+    <style name="Theme.Day.infoContentTitleItem">
+        <item name="android:textColor">@color/text_color_black</item>
+    </style>
+
+    <style name="Theme.Day.infoContentSummaryItem">
+        <item name="android:textColor">@color/text_color_light_gray</item>
+    </style>
+
+    <style name="Theme.Day.infoContentItem">
+        <item name="android:textColor">@color/text_color_black1</item>
+    </style>
+
+    <style name="Theme.Day.infoContentBoldTitleItem">
+        <item name="android:textColor">@color/text_color_black1</item>
+    </style>
+
+    <style name="Theme.Day.infoContentActivityRootbackground">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.Day.infoItemCellTitle">
+        <item name="android:textColor">@color/text_color_black1</item>
+    </style>
+
+    <style name="Theme.Day.infoItemCell">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.Day.actionBarRoot">
+        <item name="android:background">@color/red1</item>
+    </style>
+
+    <style name="Theme.Day.ModeTextAppearance" parent="Theme.Day.ActionBarTitleTextAppearance">
+        <item name="android:text">@string/night</item>
+    </style>
+
+    <style name="Theme.Day.ActionBarTitleTextAppearance">
+        <item name="android:textColor">@color/white1</item>
+    </style>
+
+    <style name="MyWidget.TabPageIndicator.Day" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_indicator_background_day</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAppearance">@style/MyTextAppearance.TabPageIndicator.Day</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="MyTextAppearance.TabPageIndicator.Day" parent="Widget">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@drawable/tab_text_color_day</item>
+    </style>
+
+    <!-- Night主题 -->
+    <style name="Theme.Night" parent="CSDNTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="vpiTabPageIndicatorStyle">@style/MyWidget.TabPageIndicator.Night</item>
+        <item name="mode">@style/Theme.Night.ModeTextAppearance</item>
+        <item name="actionBarTitle">@style/Theme.Night.ActionBarTitleTextAppearance</item>
+        <item name="actionBarRoot">@style/Theme.Night.actionBarRoot</item>
+        <item name="tabItemFragmentMain">@style/Theme.Night.tabItemFragmentMain</item>
+        <item name="infoItemCell">@style/Theme.Night.infoItemCell</item>
+        <item name="infoItemCellTitle">@style/Theme.Night.infoItemCellTitle</item>
+        <item name="infoContentActivityRootbackground">@style/Theme.Night.infoContentActivityRootbackground</item>
+        <item name="infoContentTitleItem">@style/Theme.Night.infoContentTitleItem</item>
+        <item name="infoContentSummaryItem">@style/Theme.Night.infoContentSummaryItem</item>
+        <item name="infoContentItem">@style/Theme.Night.infoContentItem</item>
+        <item name="infoContentBoldTitleItem">@style/Theme.Night.infoContentBoldTitleItem</item>
+    </style>
+
+    <style name="Theme.Night.infoContentTitleItem">
+        <item name="android:textColor">@color/text_color_dark_gray2</item>
+    </style>
+
+    <style name="Theme.Night.infoContentSummaryItem">
+        <item name="android:textColor">@color/text_color_dark_gray5</item>
+    </style>
+
+    <style name="Theme.Night.infoContentItem">
+        <item name="android:textColor">@color/text_color_dark_gray5</item>
+    </style>
+
+    <style name="Theme.Night.infoContentBoldTitleItem">
+        <item name="android:textColor">@color/text_color_dark_gray5</item>
+    </style>
+
+    <style name="Theme.Night.infoContentActivityRootbackground">
+        <item name="android:background">@color/black3</item>
+    </style>
+
+    <style name="Theme.Night.infoItemCellTitle">
+        <item name="android:textColor">@color/text_color_dark_gray4</item>
+    </style>
+
+    <style name="Theme.Night.infoItemCell">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="Theme.Night.tabItemFragmentMain">
+        <item name="android:background">@color/text_color_gray</item>
+    </style>
+
+    <style name="Theme.Night.actionBarRoot">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="Theme.Night.ModeTextAppearance" parent="Theme.Night.ActionBarTitleTextAppearance">
+        <item name="android:text">@string/day</item>
+    </style>
+
+    <style name="Theme.Night.ActionBarTitleTextAppearance">
+        <item name="android:textColor">@color/white2</item>
+    </style>
+
+    <style name="MyWidget.TabPageIndicator.Night" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_indicator_background_night</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAppearance">@style/MyTextAppearance.TabPageIndicator.Night</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="MyTextAppearance.TabPageIndicator.Night" parent="Widget">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@drawable/tab_text_color_night</item>
+    </style>
+    
+</resources>

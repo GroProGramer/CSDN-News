@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#009688</color>
+    <color name="primary_pressed">#26a69a</color>
+    <color name="ldrawer_color">#FFFFFF</color>
+    <color name="actionbar_color">#019587</color>
+    <color name="drawer_arrow_second_color">#303f9f</color>
+	<color name="drawer_bottom_line">#DFDFDF</color>
+	<color name="drawer_bottom_bg">#F0F0F0</color>
+	 <color name="background_color">#ffdbdada</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#ffc3c3c3</color>
+    <color name="black">#ff000000</color>
+	    <color name="float_transparent">#66000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#20BCA6</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+        <color name="text_color_light_gray">#999999</color>
+        <color name="text_color_black">#FF000000</color>
+            <color name="text_color_black1">#FF333333</color>
+            <color name="red1">#ef4d7f</color>
+                <color name="white1">#FFFFFF</color>
+            
+    <color name="button_color_level_1">#FE9903</color>
+    <color name="button_color_level_1_enabled">#FEC268</color>
+    <color name="button_color_level_1_pressed">#FE8803</color>
+    <color name="button_color_level_2">#00BE3A</color>
+    <color name="button_color_level_2_enabled">#A2E08D</color>
+    <color name="button_color_level_2_pressed">#00A53A</color>
+    
+   
+    <color name="text_color_gray">#4B4A4A</color>
+  
+    <color name="text_color_light_gray1">#DDDDDD</color>
+    <color name="text_color_dark_gray2">#666666</color>
+    <color name="text_color_dark_gray3">#EFEFEF</color>
+    <color name="text_color_dark_gray4">#EEEEEE</color>
+    <color name="text_color_dark_gray5">#5f5f5f</color>
+    <color name="text_color_red">#FE5417</color>
+    <color name="text_color_orange">#FE9903</color>
+    <color name="black3">#151515</color>
+        <color name="black2">#222222</color>
+        <color name="white2">#d6ada9</color>
+        
+              <color name="transparent">#00000000</color>
+            <color name="text_color_white">#FFFFFF</color>
+              
+</resources>
